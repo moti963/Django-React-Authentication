@@ -4,7 +4,7 @@ import { Cookies } from 'react-cookie';
 
 class AuthAPI {
    // static baseUrl = "http://127.0.0.1:8000/auth";
-    static baseUrl = "http://druser963.pythonanywhere.com/auth/"
+    static baseUrl = "https://druser963.pythonanywhere.com/auth"
 
     static async SignupUser(body) {
         try {
